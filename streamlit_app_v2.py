@@ -3,11 +3,11 @@ import replicate
 import os
 
 # App title
-st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
+st.set_page_config(page_title="🌐 GenReview 🖥️")
 
 # Replicate Credentials
 with st.sidebar:
-    st.title('🦙💬 Llama 2 Chatbot')
+    st.title('🌐 GenReview 🖥️')
     st.write('This chatbot is created using the open-source Llama 2 LLM model from Meta.')
     replicate_api = "r8_CqwlB5wU9EpSZuulDgpqnYEk8deOlBS0MB1U7"
     os.environ['REPLICATE_API_TOKEN'] = replicate_api
